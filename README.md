@@ -13,7 +13,7 @@ A lightweight C# toolkit for building, validating, and serializing structured pa
 ## Example
 
 ```csharp
-var payload = new PayloadBuilder()
+var payload = new PayloadCreator()
     .SetName("UserProfile")
     .AddField("username", "Example")
     .AddField("level", 42)
