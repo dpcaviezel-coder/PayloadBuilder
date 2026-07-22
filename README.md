@@ -8,7 +8,7 @@ A lightweight C# toolkit for building, validating, and serializing structured pa
 - Field validation
 - JSON serialization/deserialization
 - Easy integration with other toolkits
-- MATARI-ready payload templates
+
 
 ## Example
 
