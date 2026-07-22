@@ -1,10 +1,10 @@
-# PayloadBuilder
+# PayloadCreator
 
 A lightweight C# toolkit for building, validating, and serializing structured payload objects. Useful for QA automation, API testing, game development.
 
 ## Features
 
-- Fluent payload builder
+- Fluent payload creator
 - Field validation
 - JSON serialization/deserialization
 - Easy integration with other toolkits
