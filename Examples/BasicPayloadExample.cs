@@ -1,3 +1,4 @@
+
 using System;
 using PayloadBuilder.Builders;
 using PayloadBuilder.Serialization;
@@ -10,12 +11,15 @@ namespace PayloadBuilder.Examples
         {
             Console.WriteLine("BasicPayloadExample:");
 
-            var payload = new PayloadBuilder()
-                .SetName("UserProfile")
-                .AddField("username", "ExampleUser")
-                .AddField("level", 42)
-                .AddField("isPremium", true)
-                .Build();
+            var payload = new PayloadCreator()
+            .WithName("UserProfile")
+            .WithField("username", "ExampleUser")
+            .WithField("level", 42)
+            .WithField("isPremium", true)
+            .Build();
+
+
+
 
             PayloadValidator.Validate(payload);
 
@@ -25,3 +29,4 @@ namespace PayloadBuilder.Examples
         }
     }
 }
+

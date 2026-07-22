@@ -1,14 +1,17 @@
 using System;
 using PayloadBuilder.Examples;
 
-class Program
+namespace PayloadBuilder
 {
-    static void Main()
+    class Program
     {
-        Console.WriteLine("PayloadBuilder Demo\n");
+        static void Main()
+        {
+            Console.WriteLine("PayloadBuilder Demo\n");
 
-        BasicPayloadExample.Run();
+            BasicPayloadExample.Run();
 
-        Console.WriteLine("\nDone.");
+            Console.WriteLine("\nDone.");
+        }
     }
 }

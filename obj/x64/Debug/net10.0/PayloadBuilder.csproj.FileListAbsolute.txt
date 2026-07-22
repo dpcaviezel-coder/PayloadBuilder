@@ -1,0 +1,5 @@
+C:\Users\dpcav\source\repos\PayloadBuilder\obj\x64\Debug\net10.0\PayloadBuilder.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dpcav\source\repos\PayloadBuilder\obj\x64\Debug\net10.0\PayloadBuilder.AssemblyInfoInputs.cache
+C:\Users\dpcav\source\repos\PayloadBuilder\obj\x64\Debug\net10.0\PayloadBuilder.AssemblyInfo.cs
+C:\Users\dpcav\source\repos\PayloadBuilder\obj\x64\Debug\net10.0\PayloadBuilder.csproj.CoreCompileInputs.cache
+C:\Users\dpcav\source\repos\PayloadBuilder\obj\x64\Debug\net10.0\PayloadBuilder.sourcelink.json

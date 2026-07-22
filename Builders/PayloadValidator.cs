@@ -12,7 +12,7 @@ namespace PayloadBuilder.Builders
 
             foreach (var kv in payload.Fields)
             {
-                if (kv.Key == null || kv.Key.Trim() == "")
+                if (string.IsNullOrWhiteSpace(kv.Key))
                     throw new Exception("Payload contains a field with an empty key.");
 
                 if (kv.Value == null)
